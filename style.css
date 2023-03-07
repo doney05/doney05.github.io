@@ -1,0 +1,168 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #eff4fd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.hero {
+  position: relative;
+  height: auto;
+  background: #eff4fd;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 6%;
+}
+
+nav .logo {
+  width: 100px;
+  height: 100px;
+}
+
+nav .ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav .ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+nav .ul li a:hover {
+  color: red;
+}
+
+nav .btn {
+  background: #212121;
+  padding: 10px 18px;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+nav .btn:hover {
+  color: #fff;
+  background-color: #105085;
+}
+
+.detel {
+  margin-left: 8%;
+}
+
+.detel h1 {
+  font-size: 50px;
+  color: #212121;
+  margin-bottom: 20px;
+}
+
+span {
+  color: orange;
+}
+
+.detel p {
+  color: #555;
+  line-height: 22px;
+}
+
+.detel a {
+  background: #212121;
+  padding: 10px 18px;
+  font-weight: bold;
+  color: #fff;
+  display: inline-block;
+  margin: 30px 0;
+  border-radius: 5px;
+}
+
+.detel a:hover {
+  background-color: #105085;
+}
+
+.images {
+  margin-top: -15%;
+  margin-bottom: -10%;
+}
+
+.images .shape {
+  width: 100%;
+}
+
+.images .foto {
+  width: 50%;
+  margin-left: 15%;
+  margin-top: -104%;
+}
+
+.about {
+  background: #eff4fd;
+}
+
+.about .about-me {
+  font-weight: bold;
+}
+
+.project {
+  background: #eff4fd;
+}
+
+.skils {
+  background: #eff4fd;
+}
+
+.footer {
+  background: #eff4fd;
+}
+
+.up-icon {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #a0c1ff;
+  bottom: 40px;
+  right: 20px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 62px;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.fa-circle-chevron-up {
+  font-size: 30px;
+}
+
+.up-icon.active {
+  right: 10px;
+  bottom: 40px;
+  pointer-events: auto;
+  opacity: 1;
+  z-index: 1;
+}
+/*# sourceMappingURL=style.css.map */
